@@ -33,7 +33,7 @@ def linex():print(f'{A}━━━━━━━━━━━━━━━━━━━
 logo=(f'''
               {A}┳┳┓┳┓┳┳┓
               {A}┃┃┃┣┫┃┃┃
-              {A}┛ ┗┛┗┛ ┗   V/0.1
+              {A}┛ ┗┛┗┛ ┗   V/0.0
 {A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 {A}[=] DEVELOPER : MRIDUl ISLAM
 {A}[=] TOOL      : RANDOM CLONING {A}[{G}BD{A}|{G}IND{A}]
