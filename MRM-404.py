@@ -38,6 +38,7 @@ logo=(f'''
   M  YM.P'  MM    MM  YM.     M  YM.P'  MM  
   M  `YM'   MM    MM   `Mb.   M  `YM'   MM  
 .JML. `'  .JMML..JMML. .JMM..JML. `'  .JMML.''')
+                                            V/0.1
 {A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 {A}[=] DEVELOPER : MRIDUl ISLAM
 {A}[=] TOOL      : RANDOM CLONING {A}[{G}BD{A}|{G}IND{A}]
