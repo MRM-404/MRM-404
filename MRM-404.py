@@ -39,8 +39,8 @@ logo=(f'''
    {A}  M  `YM'   MM    MM   `Mb.   M  `YM'   MM  
    {A}.JML. `'  .JMML..JMML. .JMM..JML. `'  .JMML.''')
 {A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-{A}[√] DEVELOPER : MRIDUl ISLAM
-{A}[√] TOOL      : RANDOM CLONING {A}[{G}BD{A}|{G}IND{A}]
+{A}[=] DEVELOPER : MRIDUl ISLAM
+{A}[=] TOOL      : RANDOM CLONING {A}[{G}BD{A}|{G}IND{A}]
 {A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━''')
  #________________ MENU _____________#
 def menu():
