@@ -38,7 +38,7 @@ logo=(f'''
    {A} M  YM.P'  MM    MM  YM.     M  YM.P'  MM  
    {A}  M  `YM'   MM    MM   `Mb.   M  `YM'   MM  
    {A}.JML. `'  .JMML..JMML. .JMM..JML. `'  .JMML.''')
-{A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+{A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 {A}[=] DEVELOPER : MRIDUl ISLAM
 {A}[=] TOOL      : RANDOM CLONING {A}[{G}BD{A}|{G}IND{A}]
 {A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━''')
