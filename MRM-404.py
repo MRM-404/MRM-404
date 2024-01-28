@@ -31,18 +31,14 @@ def clear():os.system('clear');print(logo)
 def linex():print(f'{A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 #________________ LOGOX ______________#
 logo=(f'''
-`7MMM.     ,MMF'`7MM"""Mq.  `7MMM.     ,MMF'
-  MMMb    dPMM    MM   `MM.   MMMb    dPMM  
-  M YM   ,M MM    MM   ,M9    M YM   ,M MM  
-  M  Mb  M' MM    MMmmdM9     M  Mb  M' MM  
-  M  YM.P'  MM    MM  YM.     M  YM.P'  MM  
-  M  `YM'   MM    MM   `Mb.   M  `YM'   MM  
-.JML. `'  .JMML..JMML. .JMM..JML. `'  .JMML.''')                                
+              {A}┳┳┓┳┓┳┳┓
+              {A}┃┃┃┣┫┃┃┃
+              {A}┛ ┗┛┗┛ ┗   V/0.1
 {A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 {A}[=] DEVELOPER : MRIDUl ISLAM
 {A}[=] TOOL      : RANDOM CLONING {A}[{G}BD{A}|{G}IND{A}]
 {A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━''')
-#________________ MENU _____________#
+ #________________ MENU _____________#
 def menu():
     clear()
     print(f'{A}[1] RANDOM {G}BD-MIX {A}CLONE ');print(f'{A}[2] RANDOM {G}BD-NEW {A}CLONE');print(f'{A}[3] RANDOM {G}IND {A}CLONE');print(f'{A}[0] EXIT MRM');linex()
