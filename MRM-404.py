@@ -31,16 +31,17 @@ def clear():os.system('clear');print(logo)
 def linex():print(f'{A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 #________________ LOGOX ______________#
 logo=(f'''
-   {A}`7MMM.     ,MMF'`7MM"""Mq.  `7MMM.     ,MMF'
-   {A}MMMb    dPMM    MM   `MM.   MMMb    dPMM  
-   {A}M YM   ,M MM    MM   ,M9    M YM   ,M MM  
-   {A}M  Mb  M' MM    MMmmdM9     M  Mb  M' MM  
-   {A}M  YM.P'  MM    MM  YM.     M  YM.P'  MM  
-   {A}M  `YM'   MM    MM   `Mb.   M  `YM'   MM  
-   {A}.JML. `'  .JMML..JMML. .JMM..JML. `'  .JMML.''')
+     {A} _   _  ____   _   _ 
+  {A}) \_/ (/  _ \ ) \_/ (
+  {A}|  _  |)  ' / |  _  |
+  {A})_( )_(|_()_\ )_( )_(''')
 {A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 {A}[=] DEVELOPER : MRIDUl ISLAM
 {A}[=] TOOL      : RANDOM CLONING {A}[{G}BD{A}|{G}IND{A}]
+{A}[=] Github    : github.com/MRM-404
+{A}[=] Status    :Free
+{A}[=] Version   :0.1
+{A}[=] Tools     :MRM-404
 {A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━''')
  #________________ MENU _____________#
 def menu():
